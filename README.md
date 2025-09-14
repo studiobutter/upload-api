@@ -10,7 +10,7 @@ This is the backend API for the upload system. It uses a Cloudflare Worker to:
 
 - Generate presigned upload URLs so clients can upload directly to Cloudflare R2.
 
-The frontend (React app) will use this API later to handle user uploads.
+The frontend (React app) will use this API later to handle user uploads. Check [upload-frontend](https://github.com/studiobutter/upload-frontend) for more information
 
 ✅ Features
 

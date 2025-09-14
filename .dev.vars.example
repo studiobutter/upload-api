@@ -1,0 +1,3 @@
+UPLOAD_PASSWORD=[ANYTHING]
+R2_ACCESS_KEY_ID= \\ Please make one in Cloudflare Dashboard
+R2_SECRET_ACCESS_KEY= \\ Please make one in Cloudflare Dashboard

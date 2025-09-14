@@ -60,7 +60,7 @@ npm install
 Create `.dev.vars` in the project root:
 
 ```env
-UPLOAD_PASSWORD=Password
+UPLOAD_PASSWORD=[ANY_PASSWORD]
 R2_ACCESS_KEY_ID=your-access-key
 R2_SECRET_ACCESS_KEY=your-secret-key
 ```

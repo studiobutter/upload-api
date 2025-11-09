@@ -18,6 +18,13 @@ export default {
       });
     }
 
+    if (url.pathname === "/status") {
+      return new Response(JSON.stringify({ status: "ok" }), {
+        status: 200,
+        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": origin },
+      });
+    }
+
     // === Generate Presigned Upload URL ===
     if (url.pathname === "/get-upload-url" && request.method === "POST") {
       let body;
